@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* ===================
+    ALL: Property Guru theme
+   =================== */
+
+.header-container {
+    border-bottom: 8px solid #FEB415;
+}
+
+.header-container,
+.footer-container {
+    background: #CD2027;
+}
+.pguru .footer-container {
+	background:#CD2027 url(../img/pguru-logo.png) right -27px no-repeat;
+	height:124px;
+    border-top: 8px solid #FEB415;
+}
+
+.pguru .title {
+    color: white;
+}
+
+/*------------------------------
+	Buttons
+-------------------------------*/
+.buttons {
+	-moz-box-shadow:inset 0px 1px 0px 0px #FEB415;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #FEB415;
+	box-shadow:inset 0px 1px 0px 0px #ffffcc;
+	background-color:#CD2027;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #FEB415;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	margin:0 0 0 10px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #FEB415;
+	cursor:pointer;
+}.buttons:hover, .buttons.selected {
+	background-color:#FEB415;
+	text-decoration:none;
+}.buttons:active {
+	position:relative;
+	top:1px;
+}
+.buttons.buttongroupleft {
+	margin-right:0px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+	border-right:1px solid #fff;
+	
+}
+.buttons.buttongroupright {
+	margin-left:0px;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;	
+}
+.buttons-right {
+	float:right;
+	width:40%;	
+}

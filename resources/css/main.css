@@ -1,0 +1,428 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    font: 12px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+	min-height:40px;
+} 
+.main-container {
+	min-height:450px;	
+}
+
+h1, h2, h3 {
+	text-shadow: 2px 1px 2px rgba(148, 150, 150, 1);	
+}
+
+/* ===================
+    ALL: BlueTheme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #378DE5;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #378DE5;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #84BBF3;
+}
+
+.title {
+    color: white;
+}
+
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+       width:100%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.hide {
+	display:none;	
+}
+
+/*------------------------------
+	Button
+-------------------------------*/
+.buttons {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	margin:0 0 0 10px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+	cursor:pointer;
+}.buttons:hover, .buttons.selected {
+	background-color:#378de5;
+	text-decoration:none;
+}.buttons:active {
+	position:relative;
+	top:1px;
+}
+.buttons.buttongroupleft {
+	margin-right:0px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+	border-right:1px solid #fff;
+	
+}
+.buttons.buttongroupright {
+	margin-left:0px;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;	
+}
+.buttons-right {
+	float:right;
+	width:40%;	
+}
+
+
+/*---------------------------------
+	Overrides
+----------------------------------*/
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	margin: 0px;
+}
+
+/*-------------------------------
+	Specific styles
+---------------------------------*/
+
+.pre-loader {
+	position:absolute;
+	width:55%;
+	height:50%;
+	background-color:#EEE;
+	opacity:0.9;
+	filter:alpha(opacity=30);
+	z-index:300;
+}	
+.pre-loader img {
+	position:relative;
+	top:40%;
+	left:50%;	
+}
+.logo {
+	display:block;
+	float:left;
+	width:22px;
+	height:22px;
+	background:url(../img/glyphicons-halflings-white.png) -333px -143px no-repeat;
+	margin-top:10px;
+}
+
+.search {
+	width:48%;
+	margin:0 auto;	
+	margin-top: 150px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px #BBB;
+	-moz-box-shadow: 0 5px 10px #BBB;
+	box-shadow: 0 5px 10px #BBB;
+}
+.search-input {
+	width:200px;	
+}
+.searcherror {
+	background-color: #FF0000 !important;
+	border: 1px solid #FF3300  !important;
+	color:#fff !important;	
+}
+
+.list-view {
+	background:url(../img/glyphicons-halflings-white.png) -362px -44px no-repeat;
+	width:12px;
+	height:22px;
+}
+.map-view {
+	background:url(../img/glyphicons-halflings-white.png) -457px -45px no-repeat;
+	width:12px;
+	height:22px;
+}
+.searchresults{
+	width:70%;
+	margin: 20px auto;
+}
+.searchresults header {
+	border-bottom:1px solid #ccc;	
+}
+
+.searchresultslist ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.searchresultslist li {
+	font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+	color: #888;
+	display: block;
+	width: 97%;
+	padding-left:15px;
+	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-o-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+	transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+.searchresultslist li:last-child {
+  	border: none;
+}
+ 
+.searchresultslist li:hover {
+	font-size: 20px;
+	background: #f6f6f6;
+}
+#map {
+        height: 500px;
+        width: 700px;
+        border: 1px solid #ccc;
+        margin:10px auto;
+}
+.demographics {
+	float:left;
+	width:55%;
+	line-height:45px;	
+}

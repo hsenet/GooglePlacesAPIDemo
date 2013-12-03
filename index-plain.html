@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="resources/css/main.css">
+		<script src="resources/js/vendor/jquery-1.9.1.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&libraries=places"></script>
+        <script src="resources/js/main.js"></script>
+    </head>
+    <body class="pguru">
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title"><span class="logo"></span>Google Places</h1>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <header>
+                        <h1></h1>
+                    </header>
+                    <section class="search">
+                        Enter a place name to search: <input type="text" id="search-input" class="search-input"></input><a class="buttons" id="place-search">Search</a>
+                    </section>
+                </article>
+                <div class="searchresults hide clearfix" id="searchresults">
+                <div class="pre-loader hide"><img src="resources/img/pre-loader.gif" /></div>
+                     <header class="clearfix">
+                     	<div class="demographics hide">
+                        	There are <span id="locationindex"></span> location(s) matching your query.
+                        </div>
+                        <div class="pagination-right buttons-right">
+                            <a class="buttons buttongroupleft selected" id="list-view"><div class="list-view"></div></a><a class="buttons buttongroupright" id="map-view"><div class="map-view"></div></a>
+                        </div>
+                     </header>
+                     <section class="searchresultslist" id="searchresultslist">
+                     <br />
+                         <ul>
+                            <li>Loading...</li>
+                          </ul>  
+                     </section>
+                     <section class="searchresultsmap hide">
+                            <div id="map"></div>
+                     </section>
+            	</div>
+            </div> <!-- #main -->
+           
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                
+            </footer>
+        </div>   
+    </body>
+</html>
